@@ -5,4 +5,4 @@ SUMPAHHHH part nak letak forward hostname je dah pening nak mampos. So here is a
 
 Additional notes:
 
-If u deploy a container menggunakan docker compose (samada di cli atau di portainer), docker akan auto buat network utk that stack only. Therefore, jika taknak map port, make sure add N-pm to the network of the stack yg u deploy (this is easy if u use Portainer), then follow cara no 1. Kalau tak suka, buat cara 1 atau 2. 
+If u deploy a container menggunakan docker compose (samada di cli atau di portainer), docker akan auto buat network utk that stack only. Therefore, jika taknak map port, make sure add N-pm to the network of the stack yg u deploy (this is easy if u use Portainer), then c&p local IP Address of that service container, masukkan dlm N-pm, port 80 ATAU developer  tetapkan. Kalau tak suka, buat cara 1 atau 2. 
