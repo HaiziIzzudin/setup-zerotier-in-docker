@@ -28,7 +28,7 @@
 
 ## Access the Share from Windows:
 1. On your Windows PC, open File Explorer.
-2. In the address bar, type \\<server-ip>\shared (replace <server-ip> with your server's IP address).
+2. In the address bar, type `\\<server-ip>\vault-1` (replace <server-ip> with your server's IP address).
 3. Enter the Samba username and password when prompted.
 4. You should now have access to the shared directory.
 
@@ -56,7 +56,7 @@ Now, kat pane tepi, go to System > Bootup and Shutdown.
 Restart smbd.service.
 
 ## Kalau ada permission issue:
-
-```sudo chown -R your_user:your_group /path/to/shared-folder```
-
+```
+sudo chown -R your_user:your_group /path/to/shared-folder
+```
 Replace `your_user` and `your_group` with the correct user and group. Normally dia sama.
