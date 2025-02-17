@@ -18,7 +18,7 @@
 17. Share name = vault-1
 18. Directory to share, tekan tepi tu, then select the folder you want to share.
 19. Auto create directory = yes
-20. Create with owner & create with group = (set owner yg ada samba access, jgn set lain, nnti dia akan permission issue)
+20. "Create with owner" & "create with group" = (set owner yg ada file permission access, jgn set lain, nnti dia akan permission issue)
 21. Tekan Create.
 22. Dia akan back ke page asal. Now, tekan "Convert Users".
 23. On unix users to convert, tekan "Only listed users or UID ranges", then set to your current user.
