@@ -6,6 +6,8 @@
 4. Relogin to Webmin, go to "Linux RAID" > Select current RAID > "Delete" > Confirm.
 
 ### Now RAID array has been deleted, let's say u have added new disk, let's configure the new disk/ wipe existing disk.
+###### This situation given that you have initialized samba to grab the same folder name. If different/ start from scratch, please refer [setup samba in webmin.md]()
+
 1. Go to "Partitions on Local Disk" > Select the new disk (or existing disk) > Select partitions > ...<br>
    1.1. If you only have one partition that take up full disk, just format to EXT.<br>
    1.2. Else if you have multiple paritions, delete the partitions, and initialize as one giant partition as EXT.
