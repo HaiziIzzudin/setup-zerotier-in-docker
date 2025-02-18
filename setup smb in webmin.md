@@ -14,7 +14,7 @@
 2. Do the same on the other disk drive.
 3. Go to "Linux RAID" > Select RAID device level that is suitable for your setup.
 4. Select partitions that you have initialized at step 1 > Create.
-5. Select the newly created RAID > select mount to > enter in default mount path (example: `/mnt/<folder-name>`). Ideally folder name will be same as the SMB name you will configure later on.
+5. Select the newly created RAID > select mount to > enter in default mount path (example: `/mnt/<folder-name>`). Ideally folder name will be same as the SMB name you have configured.
 6. ...
 
 (more will update)
